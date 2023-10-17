@@ -1,0 +1,401 @@
+*:where( :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+
+    all: unset;
+
+    display: revert;
+
+}
+
+li {
+    list-style: none;
+}
+
+.top-bar {
+    background-color: #5016ad;
+    color: #BEA187;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.top-bar li:hover {
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.front {
+    background-color: #5016ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.front h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 200px;
+}
+
+.front h2 {
+    color: #BEA187;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.front hr {
+    background-color: #BEA187;
+    height: 1px;
+    width: 50%;
+    margin: 30px;
+}
+
+.redes {
+    display: flex;
+    gap: 25px;
+    fill: #BEA187;
+    padding-top: 45px;
+    padding-bottom: 200px;
+}
+
+.redes li:hover {
+    cursor: pointer;
+    fill: #ffffff;
+    transition: 0.5s;
+}
+
+.about {
+    background-color: #ece1d7;
+    line-height: 1rem;
+    padding: 55px 0 75px 0;
+}
+
+.about .flex {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 15px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: -100px;
+}
+
+.about img {
+    background-image: url(imagenes/Luis.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+
+.about h3 {
+    font-size: 25px;
+    color: #BEA187;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.skills {
+    background-color: #BEA187;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.skills div {
+    display: flex;
+    gap: 10px;
+}
+
+.skills h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.skills .skill1 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.skills .skill1 div {
+    height: 4px;
+    width: 100%;
+    background-color: #ddc1a9;
+}
+
+.skills .skill1 div {
+    display: flex;
+    align-items: center;
+}
+
+.skills .skill1 div .barra {
+    height: 4px;
+    width: 95%;
+    background-color: #5016ad;
+}
+
+/* skill2 */
+.skills .skill2 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.skills .skill2 div {
+    height: 4px;
+    width: 100%;
+    background-color: #ddc1a9;
+}
+
+.skills .skill2 div {
+    display: flex;
+    align-items: center;
+}
+
+.skills .skill2 div .barra {
+    height: 4px;
+    width: 85%;
+    background-color: #5016ad;
+}
+
+/* skills3 */
+.skills .skill3 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.skills .skill3 div {
+    height: 4px;
+    width: 100%;
+    background-color: #ddc1a9;
+}
+
+.skills .skill3 div {
+    display: flex;
+    align-items: center;
+}
+
+.skills .skill3 div .barra {
+    height: 4px;
+    width: 55%;
+    background-color: #5016ad;
+}
+
+/* skills4 */
+.skills .skill4 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.skills .skill4 div {
+    height: 4px;
+    width: 100%;
+    background-color: #ddc1a9;
+}
+
+.skills .skill4 div {
+    display: flex;
+    align-items: center;
+}
+
+.skills .skill4 div .barra {
+    height: 4px;
+    width: 45%;
+    background-color: #5016ad;
+}
+
+/* skilsl5 */
+.skills .skill5 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.skills .skill5 div {
+    height: 4px;
+    width: 100%;
+    background-color: #ddc1a9;
+}
+
+.skills .skill5 div {
+    display: flex;
+    align-items: center;
+}
+
+.skills .skill5 div .barra {
+    height: 4px;
+    width: 35%;
+    background-color: #5016ad;
+}
+
+.projects {
+    background-color: #5016ad;
+    width: auto;
+    height: auto;
+    padding: 75px;
+}
+
+.projects h3 {
+    color: #BEA187;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.projects .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    width: 1350px;
+    height: 650px;
+
+}
+
+.projects .grid {
+    .project1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        background-image: linear-gradient(to top, rgb(0 0 0 / 0.9)0%, transparent 100%), url(imagenes/samurai.png);
+        background-size: cover;
+        background-position: top center;
+        width: 610px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        gap: 15px;
+        padding: 25px;
+    }
+
+    .project2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        background-image: linear-gradient(to top, rgb(0 0 0 / 0.9)0%, transparent 100%), url(imagenes/gladiator.png);
+        background-size: cover;
+        background-position: top center;
+        width: 610px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        gap: 15px;
+        padding: 25px;
+    }
+}
+
+
+.grid .project1 h4 {
+    font-size: 30px;
+    color: #BEA187;
+}
+.grid .project1 p {
+    color: #BEA187;
+    font-size: 20px;
+}
+
+.grid .project2 h4 {
+    font-size: 30px;
+    color: #BEA187;
+}
+.grid .project2 p {
+    color: #BEA187;
+    font-size: 20px;
+}
+
+.grid .project1:hover {
+    cursor: pointer;
+}
+.grid .project2:hover {
+    cursor: pointer;
+}
+
+.contacto {
+    background-color: #BEA187;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.contact-form {
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    background-color: #ece1d7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

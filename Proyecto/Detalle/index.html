@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="navegador">
+        <img class="filmax" src="https://filmax.themerex.net/wp-content/uploads/2017/12/logo-1x.png" alt="Titulo">
+        <nav class="inicio">
+            <ul class="lista">
+                <li><a href="#">Home</a></li>
+                <span> / </span>
+                <li><a href="#">Features</a></li>
+                <span> / </span>
+                <li><a href="#">About</a></li>
+                <span> / </span>
+                <li><a href="#">News</a></li>
+                <span> / </span>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="iconos">
+            <search class="lupa">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                        <path
+                            d="M 20.5 6 C 12.515556 6 6 12.515562 6 20.5 C 6 28.484438 12.515556 35 20.5 35 C 23.773158 35 26.788919 33.893018 29.220703 32.050781 L 38.585938 41.414062 A 2.0002 2.0002 0 1 0 41.414062 38.585938 L 32.050781 29.220703 C 33.893017 26.788918 35 23.773156 35 20.5 C 35 12.515562 28.484444 6 20.5 6 z M 20.5 10 C 26.322685 10 31 14.677319 31 20.5 C 31 23.295711 29.914065 25.820601 28.148438 27.697266 A 2.0002 2.0002 0 0 0 27.701172 28.144531 C 25.824103 29.912403 23.29771 31 20.5 31 C 14.677315 31 10 26.322681 10 20.5 C 10 14.677319 14.677315 10 20.5 10 z">
+                        </path>
+                    </svg>
+                </button>
+            </search>
+            <span> | </span>
+            <nav>
+                <ul class="iconos2">
+                    <li><a class="twitter" href="https://twitter.com/?lang=es"><svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                                <path
+                                    d="M 12.5 6 C 8.916 6 6 8.916 6 12.5 L 6 35.5 C 6 39.084 8.916 42 12.5 42 L 35.5 42 C 39.084 42 42 39.084 42 35.5 L 42 12.5 C 42 8.916 39.084 6 35.5 6 L 12.5 6 z M 13.828125 14 L 20.265625 14 L 25.123047 20.943359 L 31.136719 14 L 33.136719 14 L 26.025391 22.234375 L 34.257812 34 L 27.820312 34 L 22.470703 26.351562 L 15.865234 34 L 13.822266 34 L 21.564453 25.056641 L 13.828125 14 z M 16.935547 15.695312 L 28.587891 32.304688 L 31.150391 32.304688 L 19.498047 15.695312 L 16.935547 15.695312 z">
+                                </path>
+                            </svg></a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/?locale=es_ES"><svg
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                viewBox="0 0 48 48">
+                                <path
+                                    d="M20.5,46c-1.378,0-2.5-1.121-2.5-2.5V26l-4.45,0.003c-1.367,0-2.489-1.11-2.501-2.476l-0.029-3.003 c-0.006-0.673,0.25-1.306,0.724-1.783C12.216,18.263,12.847,18,13.52,18H18v-4.5c0-6.746,3.442-10.462,9.691-10.462 c2.472,0,4.63,0.175,4.65,0.177c0.965,0.086,1.691,0.88,1.691,1.847v4.57c0,1.022-0.832,1.854-1.854,1.854h-2.908 c-1.217,0-2.208,0.99-2.208,2.208L27.006,18h4.438c0.713,0,1.393,0.306,1.867,0.838s0.699,1.243,0.616,1.951l-0.349,3 C33.432,25.05,32.364,26,31.096,26H27v17.5c0,1.379-1.122,2.5-2.5,2.5H20.5z">
+                                </path>
+                            </svg></a></li>
+                    <li><a class="instagram" href="https://www.instagram.com/"> <svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                                <path
+                                    d="M 16.5 5 C 10.159 5 5 10.159 5 16.5 L 5 31.5 C 5 37.841 10.159 43 16.5 43 L 31.5 43 C 37.841 43 43 37.841 43 31.5 L 43 16.5 C 43 10.159 37.841 5 31.5 5 L 16.5 5 z M 34 12 C 35.105 12 36 12.895 36 14 C 36 15.104 35.105 16 34 16 C 32.895 16 32 15.104 32 14 C 32 12.895 32.895 12 34 12 z M 24 14 C 29.514 14 34 18.486 34 24 C 34 29.514 29.514 34 24 34 C 18.486 34 14 29.514 14 24 C 14 18.486 18.486 14 24 14 z M 24 17 A 7 7 0 1 0 24 31 A 7 7 0 1 0 24 17 z">
+                                </path>
+                            </svg></a></li>
+                    <li><a class="youtube" href="https://www.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                                x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                                <path
+                                    d="M 23.857422 8.5 C 17.504717 8.5 11.602344 8.9526234 8.234375 9.65625 A 1.50015 1.50015 0 0 0 8.2128906 9.6621094 C 5.6754768 10.230693 3.2861897 12.048234 2.7832031 14.894531 A 1.50015 1.50015 0 0 0 2.78125 14.90625 C 2.394836 17.200265 2 20.190694 2 24.5 C 2 28.801151 2.3961903 31.712324 2.8847656 34.126953 C 3.4000756 36.889296 5.7342165 38.761817 8.3105469 39.337891 A 1.50015 1.50015 0 0 0 8.3476562 39.347656 C 11.86271 40.040284 17.598467 40.5 23.951172 40.5 C 30.303877 40.5 36.042686 40.04028 39.558594 39.347656 A 1.50015 1.50015 0 0 0 39.595703 39.337891 C 42.133117 38.769306 44.522404 36.951766 45.025391 34.105469 A 1.50015 1.50015 0 0 0 45.029297 34.083984 C 45.409789 31.743169 45.902812 28.755621 46 24.439453 A 1.50015 1.50015 0 0 0 46 24.40625 C 46 20.087697 45.50571 17.078675 45.023438 14.695312 C 44.512192 11.927074 42.175378 10.049478 39.595703 9.4726562 A 1.50015 1.50015 0 0 0 39.476562 9.4511719 C 36.0464 8.9689502 30.211115 8.5 23.857422 8.5 z M 20.15625 17.001953 C 20.526656 16.994297 20.909531 17.081906 21.269531 17.285156 L 29.873047 22.146484 C 31.324047 22.966484 31.324047 25.035469 29.873047 25.855469 L 21.269531 30.716797 C 19.830531 31.528797 18.037109 30.500328 18.037109 28.861328 L 18.037109 19.138672 C 18.037109 17.909422 19.045031 17.024922 20.15625 17.001953 z">
+                                </path>
+                            </svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <section class="portada layout_box" id="up">
+        <div class="info">
+            <div class="enlaces"><a href="accion">Action, </a> <a href="adventure">Adventure</a></div>
+            <h1>Gladiator</h1><span>2000</span>
+            <ul class="details">
+                <li>
+                <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z" fill="#9e2424"></path> </g></svg></li>
+                   <li><div class="rating">99%</div><div class="votes">77.7k</div>
+                </li>
+                <li><div class="rating">87.3k</div><div class="votes">watchers</div></li>
+                <li><div class="rating">99.9k</div><div class="votes">plays</div></li>
+                <li><div class="rating">23.9k</div><div class="votes">collected</div></li>
+                <li><div class="rating">107</div><div class="votes">comments</div></li>
+                <li><div class="rating">12k</div><div class="votes">lists</div></li>
+                <li><div class="rating">19.3k</div><div class="votes">favorited</div></li>
+            </ul>
+        </div>
+    </section>
+    <aside class="caratula layout_box">
+        <img src="pictures/cartel.jpg" alt="gladiator">
+        <div class="watch">
+            <div class="buttons"><button>NETFLIX</button> <button>HBO</button></div>
+            <span><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                    <path
+                        d="m380-340 280-180-280-180v360Zm-60 220v-80H160q-33 0-56.5-23.5T80-280v-480q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v480q0 33-23.5 56.5T800-200H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg>WATCH NOW</span>
+        </div>
+
+    </aside>
+
+
+<section>
+    <div class="video layout_box">
+        <iframe width="650" height="370" src="https://www.youtube.com/embed/P5ieIbInFpg" frameborder="0"></iframe>
+    </div>
+
+    </section>
+    <section>
+        <article class="details layout_box">
+            <div>
+                <h2>Estreno</h2>
+                <p>2000</p>
+            </div>
+            <div>
+                <h2>Duración</h2>
+                <p>150 min.</p>
+            </div>
+            <div>
+                <h2>Director</h2>
+                <p><a href="https://es.wikipedia.org/wiki/Ridley_Scott" target="_blank">Ridley Scott</a></p>
+            </div>
+            <div>
+                <h2>Guionistas</h2>
+                <p><a href="https://en.wikipedia.org/wiki/David_Franzoni" target="_blank">David Franzoni,</a> <a
+                        href="https://en.wikipedia.org/wiki/John_Logan_(writer)" target="_blank"> John Logan, </a> <a
+                        href="https://en.wikipedia.org/wiki/William_Nicholson_(writer)" target="_blank">William
+                        Nicholson</a></p>
+            </div>
+            <div>
+                <h2>País</h2>
+                <p>Estados Unidos</p>
+            </div>
+            <div>
+                <h2>Estudios</h2>
+                <p>Universal Pictures</p>
+            </div>
+            <div>
+                <h2>Generos</h2>
+                <p><a class="generos" href="#">Acción, </a> <a class="generos" href="#">Aventuras</a></p>
+            </div>
+        </article>
+    </section>
+    <section class="body layout_box">
+        <p>"Gladiator" es una obra maestra del cine que ha perdurado en el tiempo como un verdadero clásico. Dirigida
+            magistralmente por Ridley Scott y protagonizada por Russell Crowe, esta película épica cautiva a la
+            audiencia desde el primer momento y no la suelta hasta su impactante conclusión. Inspirada en la antigua
+            Roma, "Gladiator" es una epopeya que combina de manera perfecta una historia emocionante, una dirección
+            hábil y un elenco excepcional.</p>
+        <blockquote>"Gladiator, dirigida por Ridley Scott, se ha convertido en un clásico atemporal del cine de acción y
+            aventuras." - <span>The New York Times</span> </blockquote>
+        <p>El corazón de la película reside en la actuación impecable de Russell Crowe, quien interpreta a Máximo Décimo
+            Meridio, un general romano que cae en desgracia y se convierte en un gladiador. Crowe inyecta una
+            profundidad emocional impresionante en su personaje, y su presencia en pantalla es abrumadora. Su desempeño
+            le valió elogios tanto de críticos como de audiencias en todo el mundo.</p>
+        <p>La dirección de Ridley Scott es igualmente impresionante. Scott logra crear una Roma antigua detallada y
+            convincente, al tiempo que orquesta secuencias de batalla espectaculares que mantienen a los espectadores al
+            borde de sus asientos. La cinematografía, la banda sonora y la edición se combinan para crear una
+            experiencia cinematográfica épica.</p>
+        <blockquote>"Russell Crowe entrega una interpretación icónica que quedará grabada en la memoria de los
+            espectadores." - <span>Variety</span> </blockquote>
+        <p>"Gladiator" es una película que se sumerge en temas universales como la venganza, la lealtad y el sacrificio,
+            mientras nos transporta a una época pasada. La película ha resistido la prueba del tiempo y sigue siendo una
+            referencia en el género de las películas de acción y aventuras.</p>
+    </section>
+    <section class="reparto">
+        <h2 class="title">Reparto</h2>
+        <article class="actores  layout_box"><div class="item1"> <img src="pictures/russell.jpg" alt="Russell Crowe">
+            <h3>Russell Crowe</h3>
+            <p>Máximo Décimo</p>
+        </div>
+        <div class="item2"><img src="pictures/phoenix.jpg" alt="Joaquin Phoenix">
+            <h3>Joaquin Phoenix</h3>
+            <p>Commodo</p>
+        </div>
+        <div class="item3"><img src="pictures/nielsen.jpg" alt="Connie Nielsen">
+            <h3>Connie Nielsen</h3>
+            <p>Lucilla</p>
+        </div>
+        <div class="item4"><img src="pictures/harris.jpg" alt="Richard Harris">
+            <h3>Richard Harris</h3>
+            <p>Marco Aurelio</p>
+        </div>
+        <div class="item5"><img src="pictures/reed.jpg" alt="Oliver Reed">
+            <h3>Oliver Reed</h3>
+            <p>Próximo</p>
+        </div>
+        <div class="item6"><img src="pictures/facio.jpg" alt="Giannina Facio">
+            <h3>Giannina Facio</h3>
+            <p>Esposa de Máximo</p>
+        </div></article>
+        
+    </section>
+
+
+    <footer class="flex layout_box">
+        <div class="title"><img class="filmax" src="https://filmax.themerex.net/wp-content/uploads/2017/12/logo-1x.png" alt="Titulo">
+        <p><a href="#">ThemeREX</a> © 2023. All rights reserved.</p></div>
+        
+        <nav class="list">
+            <div class="container"><h2>MOVIES</h2><hr></div>
+            
+            <ul>
+                <li><a href="#">Film News</a></li>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Coming Soon</a></li>
+                <li><a href="#">Most Popular</a></li>
+                <li><a href="#">Top Trailers</a></li>
+            </ul>
+        </nav>
+        <nav class="list">
+            <div class="container"><h2 >ADDITIONAL LINKS</h2><hr></div>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Service Plus</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="email">
+            <div class="container"><h2>NEWSLETTER</h2><hr></div>
+            <input type="email" placeholder="Newsletter Sign Up">
+        
+        <ul class="redes">
+            <li><a href="https://twitter.com/?lang=es"><svg xmlns="http://www.w3.org/2000/svg"
+                x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                <path
+                    d="M 12.5 6 C 8.916 6 6 8.916 6 12.5 L 6 35.5 C 6 39.084 8.916 42 12.5 42 L 35.5 42 C 39.084 42 42 39.084 42 35.5 L 42 12.5 C 42 8.916 39.084 6 35.5 6 L 12.5 6 z M 13.828125 14 L 20.265625 14 L 25.123047 20.943359 L 31.136719 14 L 33.136719 14 L 26.025391 22.234375 L 34.257812 34 L 27.820312 34 L 22.470703 26.351562 L 15.865234 34 L 13.822266 34 L 21.564453 25.056641 L 13.828125 14 z M 16.935547 15.695312 L 28.587891 32.304688 L 31.150391 32.304688 L 19.498047 15.695312 L 16.935547 15.695312 z">
+                </path>
+            </svg></a></li>
+            <li><a href="https://www.facebook.com/?locale=es_ES"><svg
+                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                viewBox="0 0 48 48">
+                <path
+                    d="M20.5,46c-1.378,0-2.5-1.121-2.5-2.5V26l-4.45,0.003c-1.367,0-2.489-1.11-2.501-2.476l-0.029-3.003 c-0.006-0.673,0.25-1.306,0.724-1.783C12.216,18.263,12.847,18,13.52,18H18v-4.5c0-6.746,3.442-10.462,9.691-10.462 c2.472,0,4.63,0.175,4.65,0.177c0.965,0.086,1.691,0.88,1.691,1.847v4.57c0,1.022-0.832,1.854-1.854,1.854h-2.908 c-1.217,0-2.208,0.99-2.208,2.208L27.006,18h4.438c0.713,0,1.393,0.306,1.867,0.838s0.699,1.243,0.616,1.951l-0.349,3 C33.432,25.05,32.364,26,31.096,26H27v17.5c0,1.379-1.122,2.5-2.5,2.5H20.5z">
+                </path>
+            </svg></a></li>
+            <li><a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                <path
+                    d="M 16.5 5 C 10.159 5 5 10.159 5 16.5 L 5 31.5 C 5 37.841 10.159 43 16.5 43 L 31.5 43 C 37.841 43 43 37.841 43 31.5 L 43 16.5 C 43 10.159 37.841 5 31.5 5 L 16.5 5 z M 34 12 C 35.105 12 36 12.895 36 14 C 36 15.104 35.105 16 34 16 C 32.895 16 32 15.104 32 14 C 32 12.895 32.895 12 34 12 z M 24 14 C 29.514 14 34 18.486 34 24 C 34 29.514 29.514 34 24 34 C 18.486 34 14 29.514 14 24 C 14 18.486 18.486 14 24 14 z M 24 17 A 7 7 0 1 0 24 31 A 7 7 0 1 0 24 17 z">
+                </path>
+            </svg></a></li>
+            <li><a href="https://www.youtube.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                x="0px" y="0px" width="24" height="24" viewBox="0 0 48 48">
+                <path
+                    d="M 23.857422 8.5 C 17.504717 8.5 11.602344 8.9526234 8.234375 9.65625 A 1.50015 1.50015 0 0 0 8.2128906 9.6621094 C 5.6754768 10.230693 3.2861897 12.048234 2.7832031 14.894531 A 1.50015 1.50015 0 0 0 2.78125 14.90625 C 2.394836 17.200265 2 20.190694 2 24.5 C 2 28.801151 2.3961903 31.712324 2.8847656 34.126953 C 3.4000756 36.889296 5.7342165 38.761817 8.3105469 39.337891 A 1.50015 1.50015 0 0 0 8.3476562 39.347656 C 11.86271 40.040284 17.598467 40.5 23.951172 40.5 C 30.303877 40.5 36.042686 40.04028 39.558594 39.347656 A 1.50015 1.50015 0 0 0 39.595703 39.337891 C 42.133117 38.769306 44.522404 36.951766 45.025391 34.105469 A 1.50015 1.50015 0 0 0 45.029297 34.083984 C 45.409789 31.743169 45.902812 28.755621 46 24.439453 A 1.50015 1.50015 0 0 0 46 24.40625 C 46 20.087697 45.50571 17.078675 45.023438 14.695312 C 44.512192 11.927074 42.175378 10.049478 39.595703 9.4726562 A 1.50015 1.50015 0 0 0 39.476562 9.4511719 C 36.0464 8.9689502 30.211115 8.5 23.857422 8.5 z M 20.15625 17.001953 C 20.526656 16.994297 20.909531 17.081906 21.269531 17.285156 L 29.873047 22.146484 C 31.324047 22.966484 31.324047 25.035469 29.873047 25.855469 L 21.269531 30.716797 C 19.830531 31.528797 18.037109 30.500328 18.037109 28.861328 L 18.037109 19.138672 C 18.037109 17.909422 19.045031 17.024922 20.15625 17.001953 z">
+                </path>
+            </svg></a></li>
+        </ul>
+    </div>
+    </footer>
+
+</main>
+<nav class="aside-buttons">
+    <buttons class="item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                width="24">
+                <path
+                    d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+            </svg></a></buttons>
+    <buttons class="item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                width="24">
+                <path
+                    d="M360-400h400L622-580l-92 120-62-80-108 140Zm-40 160q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320Zm0-80h480v-480H320v480ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-720v480-480Z" />
+            </svg></a></buttons>
+    <buttons class="item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                width="24">
+                <path
+                    d="M460-320v-320L300-480l160 160ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm440-80h120v-560H640v560Zm-80 0v-560H200v560h360Zm80 0h120-120Z" />
+            </svg></a></buttons>
+</nav>
+<button class="up"><a href="#up"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+            width="24">
+            <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z" />
+        </svg></a></button>
+</body>
+
+</html>

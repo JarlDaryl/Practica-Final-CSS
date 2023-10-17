@@ -1,0 +1,513 @@
+*:where( :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+
+    all: unset;
+
+    display: revert;
+
+}
+
+.layout_box {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navegador {
+    background-color: #1a1d24;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    z-index: 9;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #1a1d24;
+    color: #ffffff;
+    max-width: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+.filmax {
+    display: flex;
+    justify-content: start;
+}
+
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.lista a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration-line: underline transparent;
+}
+
+.lista a:hover {
+    cursor: pointer;
+    text-decoration: underline red 1.5px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-right: 15px;
+}
+
+.iconos2:hover {
+    cursor: pointer;
+}
+
+.iconos2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    fill: #ffffff;
+}
+
+.navegador .iconos .iconos2 .twitter:hover {
+    fill: rgb(68, 189, 225);
+}
+
+.navegador .iconos .iconos2 .facebook:hover {
+    fill: #4158d0;
+}
+
+.navegador .iconos .iconos2 .instagram:hover {
+    fill: #ee2c82;
+}
+
+.navegador .iconos .iconos2 .youtube:hover {
+    fill: #fe2d2d;
+}
+
+
+.lupa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    fill: #ffffff;
+}
+
+.lupa:hover {
+    cursor: pointer;
+}
+
+.portada {
+    background-image: linear-gradient(to top, rgb(0 0 0 / 0.9)0%, transparent 60%), url(pictures/gladiator\ fondo.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 1160px;
+    height: 550px;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info h1 {
+    font-size: 47px;
+}
+
+.info .enlaces {
+    font-size: 17px;
+    font-weight: bold;
+    color: #f8b350;
+}
+.portada .info .enlaces a:hover {
+    cursor: pointer;
+}
+
+.info .enlaces> :first-child:hover {
+    cursor: pointer;
+}
+
+.info .enlaces> :nth-child(2):hover {
+    cursor: pointer;
+}
+
+.info span {
+    color: #d8d8d8;
+    font-size: 25px;
+}
+
+.portada .info .details .rating {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.portada .info .details .votes {
+    font-size: 15px;
+    color: #b1afaf;
+}
+.portada .info .details li:first-child {
+    margin-right: -25px;
+}
+
+
+.caratula img {
+    width: 175px;
+    height: 275px;
+    position: relative;
+
+}
+
+.caratula {
+    margin-left: 225px;
+    margin-top: -250px;
+    position: sticky;
+}
+
+.caratula .buttons {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 85px 85px;
+    grid-template-rows: 40px 40px;
+}
+
+.caratula .buttons> :first-child {
+    background-color: black;
+    color: red;
+    margin: 2px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caratula .buttons> :first-child:hover {
+    cursor: pointer;
+}
+
+.caratula .buttons> :nth-child(2) {
+    background-color: black;
+    color: white;
+    margin: 2px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caratula .buttons> :nth-child(2):hover {
+    cursor: pointer;
+}
+
+.watch {
+    position: relative;
+    width: 175px;
+    height: 85px;
+    background-color: #595656;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.caratula .watch span {
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    display: inline-flex;
+    fill: white;
+}
+
+.caratula .watch span:hover {
+    cursor: pointer;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+.details {
+    display: flex;
+    gap: 25px;
+}
+
+.details h2 {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+
+.details p {
+    color: #857d7d;
+    font-size: 17px;
+}
+
+.details a {
+    color: #dc2a2a;
+}
+
+.details a:hover {
+    cursor: pointer;
+}
+
+.details .generos {
+    color: #f8b350;
+}
+
+.body {
+    color: #c3bebe;
+    font-size: 20px;
+}
+
+.body blockquote {
+    padding: 25px;
+}
+
+.body span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.reparto {
+    background-color: #a2a0a0;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.reparto .actores {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.actores h3 {
+    font-weight: bold;
+    font-size: 19px;
+    color: #f8b350;
+}
+
+.actores h3:hover {
+    cursor: pointer;
+}
+
+.actores p {
+    color: #f5f0ea;
+}
+
+.reparto .title {
+    font-size: 25px;
+    padding: 30px 30px 30px 225px;
+    font-weight: bold;
+    color: #1a1d24;
+}
+
+
+
+
+.flex {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.flex .title p {
+    font-size: 14px;
+    padding-top: 30px;
+    color: #a8a8a8;
+}
+
+.flex .title a:hover {
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.flex h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.flex .list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.flex .list li {
+    color: #8b8b8b;
+    padding-top: 15px;
+}
+
+.flex .list li:hover {
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.flex .container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex hr {
+    height: 1px;
+    width: 30px;
+    background-color: #e0011a;
+}
+
+.flex .email {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.flex .email input {
+    background-color: #1a1d24;
+    color: #ffffff;
+    border-bottom: 1px solid;
+}
+
+.flex .redes {
+    display: flex;
+    gap: 15px;
+}
+
+.flex .redes> :first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(75, 222, 245);
+    border-radius: 50%;
+}
+
+.flex .redes> :first-child:hover {
+    background-color: rgb(75, 222, 245, 0.7);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.flex .redes> :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(36, 27, 216);
+    border-radius: 50%;
+}
+
+.flex .redes> :nth-child(2):hover {
+    background-color: rgb(36, 27, 216, 0.7);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.flex .redes> :nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    width: 40px;
+    height: 40px;
+    background-color: #ee2c83;
+    border-radius: 50%;
+}
+
+.flex .redes> :nth-child(3):hover {
+    background-color: rgba(238, 44, 131, 0.7);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.flex .redes> :nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    width: 40px;
+    height: 40px;
+    background-color: #fe2d2d;
+    border-radius: 50%;
+}
+
+.flex .redes> :nth-child(4):hover {
+    background-color: rgba(254, 45, 45, 0.7);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.aside-buttons {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    z-index: 99;
+}
+
+.aside-buttons .item {
+    display: grid;
+    place-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #e0011a;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.aside-buttons .item:hover {
+    cursor: pointer;
+}
+
+.up {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 99;
+    background-color: #1a1d24;
+    width: 50px;
+    height: 50px;
+    fill: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.up:hover {
+    cursor: pointer;
+    fill: #fe2d2d;
+}
